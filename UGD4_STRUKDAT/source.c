@@ -1,13 +1,11 @@
 #include "header.h"
 
 void menu(){
-    printf("\t [ATYA CHART RECORD] \n");
-    printf("[1]. Tambahkan chart \n");
+    printf("\n[1]. Tambahkan chart \n");
     printf("[2]. Tampilkan Semua Chart \n");
     printf("[3]. Edit Chart \n");
     printf("[4]. Hapus Chart \n");
     printf("[5]. Cari Chart \n");
-    printf("[6]. Cari Max/Min \n");
     printf("[0]. Keluar \n");
     printf(">>>");
 }
@@ -171,8 +169,9 @@ void cariChart(Chart *C, int maxSize){
 
 
 void cariMaxMin(Chart *C, int maxSize){
+    printf("[BONUS] \n");
     if(isEmpty(C, maxSize)){
-        printf("[!] Belum ada data Chart! [!]\n");
+        printf("[!] Array Masih Kosong [!]\n");
         return;
     }
 

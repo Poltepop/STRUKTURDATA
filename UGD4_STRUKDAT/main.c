@@ -25,6 +25,8 @@ int main(){
 
     do {
         system("cls");
+        printf("\t [ATYA CHART RECORD] \n");
+        cariMaxMin(chart, maxSize);
         menu();
         scanf("%d", &pilihan);
 
@@ -44,10 +46,6 @@ int main(){
             case 4:
                 system("cls");
                 deleteData(chart, maxSize);
-                break;
-            case 5:
-                system("cls");
-                cariMaxMin(chart, maxSize);
                 break;
             case 0:
                 system("cls");
