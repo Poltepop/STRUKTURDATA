@@ -47,6 +47,10 @@ int main(){
                 system("cls");
                 deleteData(chart, maxSize);
                 break;
+            case 5:
+                system("cls");
+                cariChart(chart, maxSize);
+                break;
             case 0:
                 system("cls");
                  printf("[I Dewa Putu Adhitya Wiraguna - 250713478 - C] \n");

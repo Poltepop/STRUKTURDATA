@@ -20,4 +20,5 @@ void insertData(Chart *C, int maxSize);
 void getAll(Chart *C, int maxSize);
 void updateData(Chart *C, int maxSize);
 void deleteData(Chart *C, int maxSize);
+void cariChart(Chart *C, int maxSize);
 void cariMaxMin(Chart *C, int maxSize);
