@@ -16,6 +16,8 @@ int getMaxSize();
 void init(Chart *C, int maxSize);
 Chart* alokasi(int maxSize);
 bool isEmpty(Chart *C, int maxSize);
+bool isFull(Chart *C, int maxSize);
+void createData(Chart *C, int index, int idChart, string namaChart, float difficultyChart);
 void insertData(Chart *C, int maxSize);
 void getAll(Chart *C, int maxSize);
 void updateData(Chart *C, int maxSize);
